@@ -6,6 +6,7 @@ import zipfile
 import io
 import os
 from tkinter import Tk,filedialog
+from dotenv import load_dotenv
 #print(os.path.exists("Models/haarcascade_frontalface_default.xml"))
 #img = cv2.imread("E:/Myself/Computer Vision/Face_Aging/Images/test.jpg")
 root=Tk()
