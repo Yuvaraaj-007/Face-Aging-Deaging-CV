@@ -127,7 +127,8 @@ cv2.imwrite("E:/Myself/Computer Vision/Face_Aging/Output/face.jpg",crop1)
 API_URL = "https://boney-valiant-remake.ngrok-free.dev/generate"
 
 # Enter your newly regenerated Colab API key
-API_KEY = "***REMOVED***"
+load_dotenv()
+API_KEY = os.getenv("SAM_API_KEY")
 
 face_path = r"E:/Myself/Computer Vision/Face_Aging/Output/face.jpg"
 
